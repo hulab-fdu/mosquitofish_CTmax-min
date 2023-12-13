@@ -1,5 +1,4 @@
 library(DESeq2)
-setwd("~/Desktop/htseq_count_star")
 
 ############DEG analysis using MAX as an example########
 
