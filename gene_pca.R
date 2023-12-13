@@ -1,6 +1,5 @@
 library(DESeq2)
 library(ggbiplot)
-setwd("~/Desktop/htseq_count_star")
 
 #Read in sample table and trim count table
 counts_star=read.csv("htseq_count_table_1.csv", stringsAsFactors = F)
