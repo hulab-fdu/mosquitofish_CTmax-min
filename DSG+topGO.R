@@ -1,7 +1,6 @@
 ######################## DSG analysis for CTmax as an example##################################
 
 library("reshape")
-setwd("~/Desktop/rmats_check/")
 
 #header of five files have been removed and renamed as "_all_fixed.txt"
 
