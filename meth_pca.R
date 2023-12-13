@@ -1,9 +1,6 @@
 ######PCA for methylation pattern using MAX as an example######
 
 library(methylKit)
-setwd("~/Desktop/R/wgbs/pca")
-
-directory="~/Desktop/R/wgbs/gz"
 
 filenames=list.files(path=directory, full.names=TRUE)
 filenames=as.list(filenames)
