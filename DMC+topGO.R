@@ -9,8 +9,6 @@ library(IRanges)
 library(mixtools)
 library(data.table)
 
-setwd("~/Desktop/R/diffmeth/")
-directory="~/Desktop/R/diffmeth/gz/"
 
 filenames=list.files(path=directory, full.names=TRUE)
 filenames=as.list(filenames)
