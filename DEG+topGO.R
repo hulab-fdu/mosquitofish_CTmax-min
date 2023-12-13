@@ -61,7 +61,7 @@ head(resSigMAX[order(resSigMAX$log2FoldChange, decreasing = FALSE), ])
 
 write.csv(resSigMAX[order(resSigMAX$log2FoldChange, decreasing = TRUE), ],file = "DE_max_all.csv")
 deg_max=rownames(resSigMAX)
-# Count the number of genes with significant differential expression at a FDR of 10%:
+# Count the number of genes with significant differential expression at a FDR of 5%:
 table(resMAX$padj < 0.05)
 
 #plot heatmap of DEGs
